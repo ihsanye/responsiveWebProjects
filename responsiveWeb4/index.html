@@ -11,20 +11,48 @@
 
 <body>
     <header id="header" style="position: fixed;">
-        <img src="https://cdn-icons-png.flaticon.com/512/1184/1184612.png" alt="kanun" id="header-img" width="80px">
-        <h2>Home-Made Kanun</h2>
-        <nav id="nav-bar">
-            <a class="nav-link" href="#form">Features</a>
-            <a class="nav-link" href="#video">How It Works</a>
-            <a class="nav-link" href="#pricing">Pricing</a>
-        </nav>
+        <div style="min-width: 33%"><img src="https://cdn-icons-png.flaticon.com/512/1184/1184612.png" alt="kanun"
+                id="header-img" width="80px"></div>
+        <div style="min-width: 33%">
+            <h2>Home-Made Kanun</h2>
+        </div>
+        <div style="min-width: 33%">
+            <nav id="nav-bar">
+                <a class="nav-link" href="#form">Features</a>
+                <a class="nav-link" href="#video">How It Works</a>
+                <a class="nav-link" href="#pricing">Pricing</a>
+            </nav>
+        </div>
     </header>
+
     <form action="https://www.freecodecamp.com/email-submit" id="form">
         <h2>Handcrafted, home-made masterpieces</h2>
         <input type="email" name="email" placeholder="Enter your email address" id="email">
         <input type="submit" value="GET STARTED" name="submit" action="" id="submit">
     </form>
-    <div id="videoo">
+
+    <div class="features">
+        <div class="feature1">
+            <h3>Feature 1</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, explicabo.
+            </p>
+        </div>
+        <div class="feature2">
+            <h3>Feature 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, explicabo.
+            </p>
+        </div>
+        <div class="feature3">
+            <h3>Feature 3</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, explicabo.
+            </p>
+        </div>
+    </div>
+
+    <div id="yt-video">
         <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/zrOjXt57oQ8?si=JWuRwivmD5lKMQBn"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -43,10 +71,12 @@
         </div>
     </section>
     <footer>
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Contact</a>
-        <p>Copyright 2024, Home-Made Kanun</p>
+        <div>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Contact</a>
+            <p>Copyright 2024, Home-Made Kanun</p>
+        </div>
     </footer>
 </body>
 
